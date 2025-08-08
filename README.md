@@ -11,3 +11,8 @@ This repository contains the dataset and notebook for predicting content age rat
   - TV shows: **~50%** accuracy.
 
 > These scores are modest but expected given the multi-class, imbalanced nature of the problem and limited content features (no user interaction signals). See the notebook for confusion matrices and per-class metrics.
+
+# Data source
+
+**Dataset:** Amazon Prime Movies and TV Shows (Kaggle)  
+**Kaggle page:** https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows
