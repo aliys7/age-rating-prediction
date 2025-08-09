@@ -1,6 +1,6 @@
 # Predicting Content Age Rating Using NLP
 
-**Short description:** Predict multi-class age ratings for movies and TV shows (MPAA / TV Parental Guidelines) from content metadata (title + description) using text features — aimed at the cold-start scenario (no interaction data).
+**Short description:** Predict multi-class age ratings for movies and TV shows (MPAA / TV Parental Guidelines) from content metadata (title + description) using text features. Aimed at the cold-start scenario (no interaction data).
 
 ## Overview
 This repository contains the dataset and notebook for predicting content age ratings using NLP + ML. I used the Amazon Prime metadata (`amazon_prime_titles.csv`) and a pipeline that includes text cleaning, TF-IDF, PCA (dimensionality reduction), SMOTE (handle class imbalance), and several classifiers (Random Forest, Logistic Regression, Decision Tree, Naïve Bayes).
